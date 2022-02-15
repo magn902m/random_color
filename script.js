@@ -27,9 +27,9 @@ function randomColor() {
   // receives no parameters.
 
   // Creates three values, r, g, and b, as random(integers) between 0 and 255.
-  let r = Math.floor(Math.random() * 255);
-  let g = Math.floor(Math.random() * 255);
-  let b = Math.floor(Math.random() * 255);
+  let r = Math.floor(Math.random() * 256);
+  let g = Math.floor(Math.random() * 256);
+  let b = Math.floor(Math.random() * 256);
 
   // Returns those as an object}
   let rgbObj = { r, g, b };
